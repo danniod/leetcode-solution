@@ -10,6 +10,7 @@ import java.util.stream.IntStream;
  * 你可以认为提莫在给定的时间点进行攻击，并立即使艾希处于中毒状态。
  *
  * https://leetcode-cn.com/problems/teemo-attacking/
+ * @date 2020/09/24
  */
 public class TeemoAttacking {
 
