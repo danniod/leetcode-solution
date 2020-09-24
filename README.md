@@ -13,9 +13,12 @@ leetcode解题库
 | NO. | 题目名称 | 题目分类 | 解题指路 |
 | --- | ------- | :-----: | ------- |
 | [485][No.485] | 最大连续1的个数 | 数组 | [MaxConsecutiveOnes.java][java.485] |
+| [495][No.495] | 提莫攻击 | 数组 | [TeemoAttacking.java][java.495] |
 
 
 
+[No.495]: https://leetcode-cn.com/problems/teemo-attacking/
+[java.495]: ./src/main/java/code/daddylin/solution/TeemoAttacking.java
 [No.485]: https://leetcode-cn.com/problems/max-consecutive-ones/
 [java.485]: ./src/main/java/code/daddylin/solution/MaxConsecutiveOnes.java
 
