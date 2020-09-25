@@ -2,10 +2,8 @@ package code.daddylin.solution;
 
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.Optional;
 import java.util.function.Supplier;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 /**
  * No.414 第三大的数
