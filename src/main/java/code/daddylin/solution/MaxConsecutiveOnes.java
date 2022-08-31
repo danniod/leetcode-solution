@@ -8,6 +8,12 @@ package code.daddylin.solution;
  * @date 2020/09/23
  */
 public class MaxConsecutiveOnes {
+
+    /**
+     * 思路：遍历给定数组，元素为1时进行累加，为0时讲当前的最大计数保存到临时变量
+     * @param nums 给定二进制数组
+     * @return 最大连续1的个数
+     */
     public int findMaxConsecutiveOnes(int[] nums) {
         int maxConsecutive = 0;
         int current = 0;

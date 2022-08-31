@@ -13,6 +13,12 @@ import java.util.Arrays;
 public class MaximumProductOfThreeNumbers {
 
 
+    /**
+     * 思路：最大乘积可以为`最大三个数之积`或`最大正数与最小两个负数之积`
+     * 将给定数组排序（升序），比较数组前两个元素与最后一个元素的乘积与最后三个元素的乘积取最大值即为最大乘积
+     * @param nums 给定数组
+     * @return 最大乘积
+     */
     public int maximumProduct(int[] nums) {
 
         int[] sorted = Arrays.stream(nums)
